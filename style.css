@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin:0;
+}
+
+.weather{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.weather ul{
+    display: flex;
+    justify-content: center;
+    background-image: url(23.png);
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.4);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+}
+
+
+.weather ul li{
+    list-style: none;
+    margin: 3px 24px;
+}
+#temp{
+    padding: 0px 0px 0px 45px;
+    color: white;
+}
+#name{
+    margin-right: 85px;
+}
+
+#name,#temp{
+    position: absolute;
+    top:70px;
+    margin-left: 0px;
+    color: white;
+    background-color: rgba(141, 141, 141, 0.4);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+}
+
+.search input{
+    padding: 6px;
+    border-radius: 8px;
+    border: none;
+}
+.weather1{
+    position: absolute;
+}
